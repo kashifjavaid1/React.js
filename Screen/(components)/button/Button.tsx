@@ -1,14 +1,14 @@
 import {View, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 
-const Button = () => {
+const props = (props: any) => {
   return (
     <View>
       <TouchableOpacity>
-        <Text>Click me</Text>
+        <Text>{props}</Text>
       </TouchableOpacity>
     </View>
   );
 };
 
-export default Button;
+export default props;
