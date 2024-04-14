@@ -1,7 +1,7 @@
 import {View, Text, TextInput} from 'react-native';
 import React, {useState} from 'react';
 
-export default function InpurField() {
+export default function InputField() {
   const [text, setText] = useState('');
   return (
     <View>
